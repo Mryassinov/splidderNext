@@ -17,12 +17,11 @@ if [[ ! " ${ALLOWED_CODENAMES[@]} " =~ " ${DEVICE} " ]]; then
     exit 1
 fi
 
-ZIPNAME="Splidder-${DEVICE}-$(date '+%Y%m%d-%H%M').zip"
+ZIPNAME="Splidder-KSUN-${DEVICE}-$(date '+%Y%m%d-%H%M').zip"
 
 export ARCH=arm64
 export KBUILD_BUILD_USER=yassine
 export KBUILD_BUILD_HOST=splidder-build
-export LOCALVERSION="-Splidder"
 export PATH="$HOME/aosp/prebuilts/clang/host/linux-x86/clang-r547379/clang-r547379/bin:$PATH"
 
 if [[ $1 = "-c" || $1 = "--clean" ]]; then
