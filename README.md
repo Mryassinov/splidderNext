@@ -20,7 +20,7 @@ A custom kernel for Xiaomi devices powered by Qualcomm SM6150 (Snapdragon 732G).
 ## Features
 
 - ⚡ **Android 16 QPR1** - Latest Android version support
-- 🔒 **January 2025 Security Patch** - Up-to-date security
+- 🔒 **January 2026 Security Patch** - Up-to-date security
 - 🎵 **Dolby Audio** - Enhanced audio experience
 - 📷 **MIUI Camera** - Stock Xiaomi camera support
 - ⚙️ **Custom Optimizations** - Performance and battery tweaks
